@@ -11,6 +11,7 @@ repository  = "https://github.com/owasp-sbot/Issues-FS__Dev__Role__DevOps"
 [tool.poetry.dependencies]
 python            = "^3.12"
 osbot-utils       = "*"
+issues-fs-cli     = "*"
 
 [build-system]
 requires = ["poetry-core>=1.9.1"]
