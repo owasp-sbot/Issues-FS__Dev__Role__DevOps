@@ -1,0 +1,15 @@
+{
+  "node_id": "f8770b27",
+  "node_type": "task",
+  "node_index": 4,
+  "label": "Task-4",
+  "title": "Deploy GitHub Pages and DNS for news.issuesFS.ai",
+  "description": "Set up the infrastructure for the Journalist news site at news.issuesFS.ai. Tasks: (1) Create .github/workflows/deploy-site.yml in Journalist repo with path-filtered trigger (publications/**, _config.yml, _layouts/**, _includes/**, assets/**, index.md, index.html, feed*.xml, _data/**) on push to main. Use actions/jekyll-build-pages and actions/deploy-pages. (2) Enable GitHub Pages on Issues-FS__Dev__Role__Journalist repo (source: GitHub Actions). (3) Add CNAME file with news.issuesFS.ai. (4) Configure DNS: CNAME record for news.issuesFS.ai pointing to owasp-sbot.github.io. (5) Verify SSL provisioning. See ADR-001 and ADR-002 in Architect repo for full spec.",
+  "status": "backlog",
+  "created_at": 1770765398484,
+  "updated_at": 1770765398484,
+  "created_by": "8f6b5539",
+  "tags": [],
+  "links": [],
+  "properties": {}
+}

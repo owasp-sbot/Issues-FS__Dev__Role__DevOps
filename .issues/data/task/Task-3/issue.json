@@ -1,0 +1,15 @@
+{
+  "node_id": "fed9cea1",
+  "node_type": "task",
+  "node_index": 3,
+  "label": "Task-3",
+  "title": "Fix infrastructure gaps across all submodules",
+  "description": "Based on the submodule status report (report__2026-02-10__submodule-status.md), fix the infrastructure gaps: (1) QA role: add pyproject.toml, CI 3-file pattern, tests/ with version test, .issues/ with issues-fs init. (2) AppSec: run issues-fs init to create .issues/. (3) Cartographer: run issues-fs init. (4) Historian: run issues-fs init. (5) Repos missing .issues/ that are role repos should all have it. Priority: QA first (Red), then Yellow roles.",
+  "status": "done",
+  "created_at": 1770763686768,
+  "updated_at": 1770764033896,
+  "created_by": "31a740cb",
+  "tags": [],
+  "links": [],
+  "properties": {}
+}
