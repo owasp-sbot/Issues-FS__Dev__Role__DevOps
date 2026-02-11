@@ -1,0 +1,15 @@
+{
+  "node_id": "3da7ad28",
+  "node_type": "task",
+  "node_index": 5,
+  "label": "Task-5",
+  "title": "Post-merge review and tag_commit mapping",
+  "description": "Review all 17 submodules + parent repo after major merge. Verify repo cleanliness, tag state, default branches, and leftover branches. Create tag/commit mapping document. Report: 12 leftover remote claude/* branches found across 6 repos, .gitmodules branch mismatch (12 repos configured as dev but only main exists), inconsistent default branch strategy, no tags on Human repo.",
+  "status": "backlog",
+  "created_at": 1770769327040,
+  "updated_at": 1770769327040,
+  "created_by": "9a5d6927",
+  "tags": [],
+  "links": [],
+  "properties": {}
+}
